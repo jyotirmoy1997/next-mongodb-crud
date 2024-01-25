@@ -1,0 +1,11 @@
+.navbar_wrapper{
+    background-color: darkslateblue;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar_wrapper button{
+    height: 30px;
+    margin-top: 1em;
+}
