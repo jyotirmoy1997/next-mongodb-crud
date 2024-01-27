@@ -1,6 +1,7 @@
 import mongoose, { Schema, Document } from 'mongoose';
 
 interface ITopic extends Document {
+  _id : string,
   title: string;
   description: string;
 }
